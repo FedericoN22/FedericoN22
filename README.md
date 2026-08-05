@@ -8,7 +8,7 @@
 
 </div>
 
-<img height="170" src="https://i.pinimg.com/736x/31/72/94/3172943688b1ff9ef1ddf766525b10db.jpg"/>
+<!-- <img height="170" src="https://i.pinimg.com/736x/31/72/94/3172943688b1ff9ef1ddf766525b10db.jpg"/> -->
 
 ---
 
