@@ -18,24 +18,6 @@ Currently I'm improving my software engineering skills through personal projects
 
 ---
 
-# 🛠 Tech Stack
-
-<p align="center">
-
-<img src="https://skillicons.dev/icons?i=cs,dotnet,postgres,docker,linux,git,github,vscode,visualstudio"/>
-
-</p>
-
-### Currently learning
-
-<p align="center">
-
-<img src="https://skillicons.dev/icons?i=redis,rabbitmq,kubernetes,azure"/>
-
-</p>
-
----
-
 # 🚀 Featured Projects
 
 ## 🛒 Ecommerce API
