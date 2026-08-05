@@ -1,4 +1,3 @@
-<img width="355" height="327" alt="image" src="https://github.com/user-attachments/assets/6d4d2165-a884-47d3-88e3-cd5fadf8e6a9" /><img width="355" height="327" alt="image" src="https://github.com/user-attachments/assets/ee1d26fa-6ebe-43f8-8861-b898f9785ed8" /><div align="center">
 
 # ⚡ FEDERICO NÚÑEZ
 
