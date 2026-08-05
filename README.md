@@ -1,4 +1,4 @@
-<div align="center">
+<img width="355" height="327" alt="image" src="https://github.com/user-attachments/assets/6d4d2165-a884-47d3-88e3-cd5fadf8e6a9" /><img width="355" height="327" alt="image" src="https://github.com/user-attachments/assets/ee1d26fa-6ebe-43f8-8861-b898f9785ed8" /><div align="center">
 
 # ⚡ FEDERICO NÚÑEZ
 
@@ -7,6 +7,8 @@
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=2500&pause=800&color=D90429&center=true&vCenter=true&width=600&lines=Building+REST+APIs;Learning+Linux;Clean+Architecture;PostgreSQL;Always+Learning"/>
 
 </div>
+
+<img height="170" src="https://i.pinimg.com/736x/31/72/94/3172943688b1ff9ef1ddf766525b10db.jpg"/>
 
 ---
 
