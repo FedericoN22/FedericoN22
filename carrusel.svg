@@ -7,7 +7,7 @@
       .text-score { font-weight: bold; font-size: 12px; }
       .arrow { stroke: #484f58; stroke-width: 1.5; stroke-dasharray: 4 3; }
 
-      /* Animación de pulso resplandeciente en GestorDeCobrosIA */
+      <!-- /* Animación de pulso resplandeciente en GestorDeCobrosIA */
       @keyframes pulseGlow {
         0% { stroke-opacity: 0.3; stroke-width: 3px; }
         50% { stroke-opacity: 1; stroke-width: 6px; }
@@ -22,7 +22,7 @@
         60%, 75% { transform: translateX(-540px); }
         80%, 95% { transform: translateX(-270px); }
         100% { transform: translateX(0px); }
-      }
+      } -->
 
       <!-- .pulse-target {
         animation: pulseGlow 2s infinite ease-in-out;
