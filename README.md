@@ -3,7 +3,7 @@
 From simple C# projects to complex backend systems, each project introduced new engineering challenges, technologies and architectural concepts.
 
 <p align="center">
-  <img src="./carrusel.svg" alt="Carrusel de Proyectos" width="100%">
+  <img src="./carrusel_adaptativo.svg" alt="Ruta de Proyectos" width="100%">
 </p>
 
 
