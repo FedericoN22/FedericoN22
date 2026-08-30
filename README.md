@@ -19,29 +19,5 @@ flowchart LR
     style F stroke:#22c55e,stroke-width:4px
 ```
 
-### 📈 What the progression represents
-
-```mermaid
-xychart-beta
-    title "Backend Project Complexity"
-    x-axis ["Task Tracker", "Unit Converter", "Todo API", "URL Shortener", "Ecommerce", "GestorDeCobrosIA"]
-    y-axis "Complexity" 0 --> 10
-    bar [2, 3, 5, 5.5, 7.5, 9]
-```
-
-### 🧠 What changed from project to project
-
-```mermaid
-flowchart LR
-    A["C# Fundamentals"]
-    --> B["HTTP & REST"]
-    --> C["Persistence & Authentication"]
-    --> D["Layered Backend"]
-    --> E["Clean Architecture"]
-    --> F["Payments & Webhooks"]
-    --> G["AI + Integrations + Reliability"]
-```
-
-
 
 <img width="600" height="423" alt="0190ded1-acf2-4b42-9477-563dc667c0cc_removalai_preview" src="https://github.com/user-attachments/assets/1cf12bc8-39bb-4872-bdf4-16f0ec8db270" />
