@@ -3,7 +3,6 @@
 From simple C# projects to complex backend systems, each project introduced new engineering challenges, technologies and architectural concepts.
 
 ```mermaid
-```mermaid
 flowchart LR
     A["🟣 Task Tracker<br/><br/>C# / CLI<br/>JSON Persistence<br/><br/><b>2/10</b>"]
     --> B["🔵 Unit Converter<br/><br/>ASP.NET Core<br/>REST API<br/>HTTP / JSON<br/><br/><b>3/10</b>"]
