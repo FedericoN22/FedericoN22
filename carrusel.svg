@@ -1,117 +1,101 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1150 220" width="100%" height="220" style="background-color: #0d1117; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; border-radius: 12px;">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1420 280" width="100%" height="280" style="background-color: #0d1117; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; border-radius: 12px;">
   <defs>
     <style>
       .card { fill: #161b22; }
-      .text-title { font-weight: bold; font-size: 13px; fill: #f0f6fc; }
-      .text-tech { font-size: 11px; fill: #8b949e; }
-      .text-score { font-weight: bold; font-size: 12px; }
-      .arrow { stroke: #484f58; stroke-width: 1.5; stroke-dasharray: 4 3; }
-
-      /* Animación que SOLO se ejecuta cuando la pantalla corta los 6 elementos o si hay más */
-      @keyframes autoScroll {
-        0%, 20% { transform: translateX(0px); }
-        25%, 45% { transform: translateX(-180px); }
-        50%, 70% { transform: translateX(-360px); }
-        75%, 95% { transform: translateX(-180px); }
-        100% { transform: translateX(0px); }
-      }
-
-      /* Condición: Si el viewport es menor a 1150px (pantallas pequeñas o móviles), inicia el movimiento */
-      @media (max-width: 1150px) {
-        .track {
-          animation: autoScroll 10s ease-in-out infinite;
-        }
-      }
+      .text-title { font-weight: bold; font-size: 15px; fill: #f0f6fc; }
+      .text-tech { font-size: 13px; fill: #8b949e; }
+      .text-score { font-weight: bold; font-size: 14px; }
+      .arrow { stroke: #484f58; stroke-width: 2; stroke-dasharray: 5 4; }
     </style>
   </defs>
 
-  <g class="track">
+  <g transform="translate(10, 10)">
     <!-- Task Tracker -->
-    <g transform="translate(20, 20)">
-      <rect x="0" y="0" width="150" height="180" rx="8" class="card" stroke="#8b5cf6" stroke-width="2"/>
-      <text x="12" y="30" class="text-title">🟣 Task Tracker</text>
-      <line x1="12" y1="42" x2="138" y2="42" stroke="#30363d"/>
-      <text x="12" y="65" class="text-tech">C# / CLI</text>
-      <text x="12" y="82" class="text-tech">JSON Persistence</text>
-      <line x1="12" y1="145" x2="138" y2="145" stroke="#30363d"/>
-      <text x="75" y="167" text-anchor="middle" class="text-score" fill="#8b5cf6">2/10</text>
+    <g transform="translate(10, 20)">
+      <rect x="0" y="0" width="180" height="210" rx="10" class="card" stroke="#8b5cf6" stroke-width="2"/>
+      <text x="15" y="35" class="text-title">🟣 Task Tracker</text>
+      <line x1="15" y1="48" x2="165" y2="48" stroke="#30363d"/>
+      <text x="15" y="75" class="text-tech">C# / CLI</text>
+      <text x="15" y="95" class="text-tech">JSON Persistence</text>
+      <line x1="15" y1="168" x2="165" y2="168" stroke="#30363d"/>
+      <text x="90" y="193" text-anchor="middle" class="text-score" fill="#8b5cf6">2/10</text>
     </g>
 
-    <line x1="174" y1="110" x2="196" y2="110" class="arrow"/>
+    <line x1="205" y1="125" x2="230" y2="125" class="arrow"/>
 
     <!-- Unit Converter -->
-    <g transform="translate(200, 20)">
-      <rect x="0" y="0" width="150" height="180" rx="8" class="card" stroke="#3b82f6" stroke-width="2"/>
-      <text x="12" y="30" class="text-title">🔵 Unit Converter</text>
-      <line x1="12" y1="42" x2="138" y2="42" stroke="#30363d"/>
-      <text x="12" y="65" class="text-tech">ASP.NET Core</text>
-      <text x="12" y="82" class="text-tech">REST API</text>
-      <text x="12" y="99" class="text-tech">HTTP / JSON</text>
-      <line x1="12" y1="145" x2="138" y2="145" stroke="#30363d"/>
-      <text x="75" y="167" text-anchor="middle" class="text-score" fill="#3b82f6">3/10</text>
+    <g transform="translate(235, 20)">
+      <rect x="0" y="0" width="180" height="210" rx="10" class="card" stroke="#3b82f6" stroke-width="2"/>
+      <text x="15" y="35" class="text-title">🔵 Unit Converter</text>
+      <line x1="15" y1="48" x2="165" y2="48" stroke="#30363d"/>
+      <text x="15" y="75" class="text-tech">ASP.NET Core</text>
+      <text x="15" y="95" class="text-tech">REST API</text>
+      <text x="15" y="115" class="text-tech">HTTP / JSON</text>
+      <line x1="15" y1="168" x2="165" y2="168" stroke="#30363d"/>
+      <text x="90" y="193" text-anchor="middle" class="text-score" fill="#3b82f6">3/10</text>
     </g>
 
-    <line x1="354" y1="110" x2="376" y2="110" class="arrow"/>
+    <line x1="430" y1="125" x2="455" y2="125" class="arrow"/>
 
     <!-- Todo List API -->
-    <g transform="translate(380, 20)">
-      <rect x="0" y="0" width="150" height="180" rx="8" class="card" stroke="#22c55e" stroke-width="2"/>
-      <text x="12" y="30" class="text-title">🟢 Todo List API</text>
-      <line x1="12" y1="42" x2="138" y2="42" stroke="#30363d"/>
-      <text x="12" y="65" class="text-tech">.NET</text>
-      <text x="12" y="82" class="text-tech">EF Core</text>
-      <text x="12" y="99" class="text-tech">SQLite</text>
-      <text x="12" y="116" class="text-tech">JWT / Auth</text>
-      <line x1="12" y1="145" x2="138" y2="145" stroke="#30363d"/>
-      <text x="75" y="167" text-anchor="middle" class="text-score" fill="#22c55e">5/10</text>
+    <g transform="translate(460, 20)">
+      <rect x="0" y="0" width="180" height="210" rx="10" class="card" stroke="#22c55e" stroke-width="2"/>
+      <text x="15" y="35" class="text-title">🟢 Todo List API</text>
+      <line x1="15" y1="48" x2="165" y2="48" stroke="#30363d"/>
+      <text x="15" y="75" class="text-tech">.NET</text>
+      <text x="15" y="95" class="text-tech">EF Core</text>
+      <text x="15" y="115" class="text-tech">SQLite</text>
+      <text x="15" y="135" class="text-tech">JWT / Auth</text>
+      <line x1="15" y1="168" x2="165" y2="168" stroke="#30363d"/>
+      <text x="90" y="193" text-anchor="middle" class="text-score" fill="#22c55e">5/10</text>
     </g>
 
-    <line x1="534" y1="110" x2="556" y2="110" class="arrow"/>
+    <line x1="655" y1="125" x2="680" y2="125" class="arrow"/>
 
     <!-- URL Shortener -->
-    <g transform="translate(560, 20)">
-      <rect x="0" y="0" width="150" height="180" rx="8" class="card" stroke="#eab308" stroke-width="2"/>
-      <text x="12" y="30" class="text-title">🟡 URL Shortener</text>
-      <line x1="12" y1="42" x2="138" y2="42" stroke="#30363d"/>
-      <text x="12" y="65" class="text-tech">REST API</text>
-      <text x="12" y="82" class="text-tech">EF Core</text>
-      <text x="12" y="99" class="text-tech">SQLite</text>
-      <text x="12" y="116" class="text-tech">Services / DTOs</text>
-      <line x1="12" y1="145" x2="138" y2="145" stroke="#30363d"/>
-      <text x="75" y="167" text-anchor="middle" class="text-score" fill="#eab308">5.5/10</text>
+    <g transform="translate(685, 20)">
+      <rect x="0" y="0" width="180" height="210" rx="10" class="card" stroke="#eab308" stroke-width="2"/>
+      <text x="15" y="35" class="text-title">🟡 URL Shortener</text>
+      <line x1="15" y1="48" x2="165" y2="48" stroke="#30363d"/>
+      <text x="15" y="75" class="text-tech">REST API</text>
+      <text x="15" y="95" class="text-tech">EF Core</text>
+      <text x="15" y="115" class="text-tech">SQLite</text>
+      <text x="15" y="135" class="text-tech">Services / DTOs</text>
+      <line x1="15" y1="168" x2="165" y2="168" stroke="#30363d"/>
+      <text x="90" y="193" text-anchor="middle" class="text-score" fill="#eab308">5.5/10</text>
     </g>
 
-    <line x1="714" y1="110" x2="736" y2="110" class="arrow"/>
+    <line x1="880" y1="125" x2="905" y2="125" class="arrow"/>
 
     <!-- Ecommerce API -->
-    <g transform="translate(740, 20)">
-      <rect x="0" y="0" width="150" height="180" rx="8" class="card" stroke="#f97316" stroke-width="3"/>
-      <text x="12" y="30" class="text-title">🟠 Ecommerce API</text>
-      <line x1="12" y1="42" x2="138" y2="42" stroke="#30363d"/>
-      <text x="12" y="60" class="text-tech">Clean Architecture</text>
-      <text x="12" y="75" class="text-tech">PostgreSQL</text>
-      <text x="12" y="90" class="text-tech">JWT / Identity</text>
-      <text x="12" y="105" class="text-tech">Stripe / Webhooks</text>
-      <text x="12" y="120" class="text-tech">Testing</text>
-      <line x1="12" y1="145" x2="138" y2="145" stroke="#30363d"/>
-      <text x="75" y="167" text-anchor="middle" class="text-score" fill="#f97316">7.5/10</text>
+    <g transform="translate(910, 20)">
+      <rect x="0" y="0" width="180" height="210" rx="10" class="card" stroke="#f97316" stroke-width="3"/>
+      <text x="15" y="35" class="text-title">🟠 Ecommerce API</text>
+      <line x1="15" y1="48" x2="165" y2="48" stroke="#30363d"/>
+      <text x="15" y="70" class="text-tech">Clean Architecture</text>
+      <text x="15" y="88" class="text-tech">PostgreSQL</text>
+      <text x="15" y="106" class="text-tech">JWT / Identity</text>
+      <text x="15" y="124" class="text-tech">Stripe / Webhooks</text>
+      <text x="15" y="142" class="text-tech">Testing</text>
+      <line x1="15" y1="168" x2="165" y2="168" stroke="#30363d"/>
+      <text x="90" y="193" text-anchor="middle" class="text-score" fill="#f97316">7.5/10</text>
     </g>
 
-    <line x1="894" y1="110" x2="916" y2="110" class="arrow"/>
+    <line x1="1105" y1="125" x2="1130" y2="125" class="arrow"/>
 
     <!-- GestorDeCobrosIA -->
-    <g transform="translate(920, 20)">
-      <rect x="0" y="0" width="160" height="180" rx="8" fill="#0d2818" stroke="#22c55e" stroke-width="3"/>
-      <text x="12" y="30" class="text-title">🚀 GestorDeCobrosIA</text>
-      <line x1="12" y1="42" x2="148" y2="42" stroke="#30363d"/>
-      <text x="12" y="58" class="text-tech">Clean Architecture</text>
-      <text x="12" y="72" class="text-tech">WhatsApp Webhooks</text>
-      <text x="12" y="86" class="text-tech">AI / STT / LLM</text>
-      <text x="12" y="100" class="text-tech">Idempotency</text>
-      <text x="12" y="114" class="text-tech">Multi-tenancy</text>
-      <text x="12" y="128" class="text-tech">Offline-first</text>
-      <line x1="12" y1="145" x2="148" y2="145" stroke="#30363d"/>
-      <text x="80" y="167" text-anchor="middle" class="text-score" fill="#22c55e">9/10</text>
+    <g transform="translate(1135, 20)">
+      <rect x="0" y="0" width="200" height="210" rx="10" fill="#0d2818" stroke="#22c55e" stroke-width="3"/>
+      <text x="15" y="35" class="text-title">🚀 GestorDeCobrosIA</text>
+      <line x1="15" y1="48" x2="185" y2="48" stroke="#30363d"/>
+      <text x="15" y="68" class="text-tech">Clean Architecture</text>
+      <text x="15" y="85" class="text-tech">WhatsApp Webhooks</text>
+      <text x="15" y="102" class="text-tech">AI / STT / LLM</text>
+      <text x="15" y="119" class="text-tech">Idempotency</text>
+      <text x="15" y="136" class="text-tech">Multi-tenancy</text>
+      <text x="15" y="153" class="text-tech">Offline-first</text>
+      <line x1="15" y1="168" x2="185" y2="168" stroke="#30363d"/>
+      <text x="100" y="193" text-anchor="middle" class="text-score" fill="#22c55e">9/10</text>
     </g>
   </g>
 </svg>
