@@ -1,4 +1,4 @@
-## 🚀 Backend Engineering Progression
+Backend Engineering Progression
 
 From simple C# projects to complex backend systems, each project introduced new engineering challenges, technologies and architectural concepts.
 
