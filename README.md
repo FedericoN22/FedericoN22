@@ -18,77 +18,53 @@ flowchart LR
     style E stroke:#f97316,stroke-width:3px
     style F stroke:#22c55e,stroke-width:4px
 ```
-
 <h3 align="center">📈 Mi Evolución y Proyectos (.NET & C#)</h3>
 
-<table align="center" style="border-collapse: collapse;">
-  <tr>
-    <!-- Task Tracker -->
-    <td align="center" width="160" valign="top" style="border: 2px solid #8b5cf6; border-radius: 8px; padding: 10px; background: #0d1117;">
-      <a href="https://github.com/tu-usuario/task-tracker" style="text-decoration: none; color: inherit;">
-        <b>🟣 Task Tracker</b>
-        <hr style="border-color: #30363d;" />
-        <p style="font-size: 12px; color: #8b949e;">C# / CLI<br>JSON Persistence</p>
-        <hr style="border-color: #30363d;" />
-        <b>2 / 10</b>
-      </a>
-    </td>
-
-    <!-- Unit Converter -->
-    <td align="center" width="160" valign="top" style="border: 2px solid #3b82f6; border-radius: 8px; padding: 10px; background: #0d1117;">
-      <a href="https://github.com/tu-usuario/unit-converter" style="text-decoration: none; color: inherit;">
-        <b>🔵 Unit Converter</b>
-        <hr style="border-color: #30363d;" />
-        <p style="font-size: 12px; color: #8b949e;">ASP.NET Core<br>REST API<br>HTTP / JSON</p>
-        <hr style="border-color: #30363d;" />
-        <b>3 / 10</b>
-      </a>
-    </td>
-
-    <!-- Todo List API -->
-    <td align="center" width="160" valign="top" style="border: 2px solid #10b981; border-radius: 8px; padding: 10px; background: #0d1117;">
-      <a href="https://github.com/tu-usuario/todo-list-api" style="text-decoration: none; color: inherit;">
-        <b>🟢 Todo List API</b>
-        <hr style="border-color: #30363d;" />
-        <p style="font-size: 12px; color: #8b949e;">.NET<br>EF Core<br>SQLite<br>JWT / Auth</p>
-        <hr style="border-color: #30363d;" />
-        <b>5 / 10</b>
-      </a>
-    </td>
-
-    <!-- URL Shortener -->
-    <td align="center" width="160" valign="top" style="border: 2px solid #f59e0b; border-radius: 8px; padding: 10px; background: #0d1117;">
-      <a href="https://github.com/tu-usuario/url-shortener" style="text-decoration: none; color: inherit;">
-        <b>🟡 URL Shortener</b>
-        <hr style="border-color: #30363d;" />
-        <p style="font-size: 12px; color: #8b949e;">REST API<br>EF Core<br>SQLite<br>Services / DTOs</p>
-        <hr style="border-color: #30363d;" />
-        <b>5.5 / 10</b>
-      </a>
-    </td>
-
-    <!-- Ecommerce API -->
-    <td align="center" width="160" valign="top" style="border: 2px solid #f97316; border-radius: 8px; padding: 10px; background: #0d1117;">
-      <a href="https://github.com/tu-usuario/ecommerce-api" style="text-decoration: none; color: inherit;">
-        <b>🟠 Ecommerce API</b>
-        <hr style="border-color: #30363d;" />
-        <p style="font-size: 12px; color: #8b949e;">Clean Architecture<br>PostgreSQL<br>JWT / Identity<br>Stripe / Webhooks<br>Testing</p>
-        <hr style="border-color: #30363d;" />
-        <b>7.5 / 10</b>
-      </a>
-    </td>
-
-    <!-- GestorDeCobrosIA -->
-    <td align="center" width="160" valign="top" style="border: 2px solid #22c55e; border-radius: 8px; padding: 10px; background: #0d1117;">
-      <a href="https://github.com/tu-usuario/gestor-cobros-ia" style="text-decoration: none; color: inherit;">
-        <b>🟢 GestorDeCobrosIA</b>
-        <hr style="border-color: #30363d;" />
-        <p style="font-size: 12px; color: #8b949e;">Clean Architecture<br>WhatsApp / Webhooks<br>AI / STT / LLM<br>Idempotency<br>Multi-tenancy<br>Offline-first</p>
-        <hr style="border-color: #30363d;" />
-        <b>9 / 10</b>
-      </a>
-    </td>
-  </tr>
+<table align="center">
+<tr>
+<td align="center" width="150" valign="top">
+<a href="https://github.com/tu-usuario/task-tracker">
+<img src="https://img.shields.net/badge/2%2F10-Task_Tracker-8b5cf6?style=for-the-badge" alt="Task Tracker"><br><br>
+<b>Task Tracker</b><br><br>
+<sub>C# / CLI<br>JSON Persistence</sub>
+</a>
+</td>
+<td align="center" width="150" valign="top">
+<a href="https://github.com/tu-usuario/unit-converter">
+<img src="https://img.shields.net/badge/3%2F10-Unit_Converter-3b82f6?style=for-the-badge" alt="Unit Converter"><br><br>
+<b>Unit Converter</b><br><br>
+<sub>ASP.NET Core<br>REST API<br>HTTP / JSON</sub>
+</a>
+</td>
+<td align="center" width="150" valign="top">
+<a href="https://github.com/tu-usuario/todo-list-api">
+<img src="https://img.shields.net/badge/5%2F10-Todo_List_API-10b981?style=for-the-badge" alt="Todo List API"><br><br>
+<b>Todo List API</b><br><br>
+<sub>.NET<br>EF Core<br>SQLite<br>JWT / Auth</sub>
+</a>
+</td>
+<td align="center" width="150" valign="top">
+<a href="https://github.com/tu-usuario/url-shortener">
+<img src="https://img.shields.net/badge/5.5%2F10-URL_Shortener-f59e0b?style=for-the-badge" alt="URL Shortener"><br><br>
+<b>URL Shortener</b><br><br>
+<sub>REST API<br>EF Core<br>SQLite<br>Services / DTOs</sub>
+</a>
+</td>
+<td align="center" width="150" valign="top">
+<a href="https://github.com/tu-usuario/ecommerce-api">
+<img src="https://img.shields.net/badge/7.5%2F10-Ecommerce_API-f97316?style=for-the-badge" alt="Ecommerce API"><br><br>
+<b>Ecommerce API</b><br><br>
+<sub>Clean Architecture<br>PostgreSQL<br>JWT / Identity<br>Stripe / Webhooks<br>Testing</sub>
+</a>
+</td>
+<td align="center" width="150" valign="top">
+<a href="https://github.com/tu-usuario/gestor-cobros-ia">
+<img src="https://img.shields.net/badge/9%2F10-GestorDeCobrosIA-22c55e?style=for-the-badge" alt="GestorDeCobrosIA"><br><br>
+<b>GestorDeCobrosIA</b><br><br>
+<sub>Clean Architecture<br>WhatsApp / Webhooks<br>AI / STT / LLM<br>Idempotency<br>Multi-tenancy<br>Offline-first</sub>
+</a>
+</td>
+</tr>
 </table>
 
 <img width="600" height="423" alt="0190ded1-acf2-4b42-9477-563dc667c0cc_removalai_preview" src="https://github.com/user-attachments/assets/1cf12bc8-39bb-4872-bdf4-16f0ec8db270" />
