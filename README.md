@@ -29,6 +29,8 @@ flowchart LR
     
     linkStyle default stroke:#8b949e,stroke-width:1px,stroke-dasharray: 3 3
 
+```
+
 <h3 align="center">📈 Mi Evolución y Proyectos (.NET & C#)</h3>
 
 <table align="center">
